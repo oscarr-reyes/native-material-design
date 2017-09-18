@@ -1,0 +1,34 @@
+{
+  "name": "native-material-design",
+  "version": "0.1.0",
+  "description": "Material Design library made with native code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarr-reyes/native-material-design.git"
+  },
+  "keywords": [
+    "material-design",
+    "md",
+    "native",
+    "library",
+    "framework",
+    "browser",
+    "client",
+    "javascript",
+    "js",
+    "css"
+  ],
+  "author": "Oscar Reyes <oscarr.reyes17@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oscarr-reyes/native-material-design/issues"
+  },
+  "homepage": "https://github.com/oscarr-reyes/native-material-design#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
