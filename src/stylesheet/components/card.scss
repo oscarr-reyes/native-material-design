@@ -1,0 +1,47 @@
+$gray: #CCC;
+
+.n-card {
+	-webkit-box-shadow: 0 2px 2px 0 $gray;
+	box-shadow: 0 2px 2px 0 $gray;
+	border-radius: 2px;
+	transition: box-shadow .2s;
+	
+	&:hover {
+		-webkit-box-shadow: 0 2px 2px 0 $gray;
+		box-shadow: 0 2px 2px 0 $gray;
+	}
+
+	& > .n-card-media{
+		height: 180px;
+		width: 320px;
+		
+		& img{
+			height: inherit;
+			width: inherit;
+		}
+	}
+
+	& > .n-card-title {
+		padding: 16px;
+
+		& > .n-card-title-text {
+			margin: 0;
+		}
+
+		& > .n-card-title-sub-text {
+			padding: 8px 0 0;
+		}
+	}
+
+	& > .n-card-actions {
+		padding: 8px;
+
+		& > .n-button:first-child {
+			margin-right: 4px;
+		}
+		
+		& > .n-button:not(:first-child) {
+			margin: 0 4px;
+		}
+	}
+}

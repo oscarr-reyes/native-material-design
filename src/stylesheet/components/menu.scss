@@ -1,0 +1,29 @@
+$gray: #CCC;
+$shadow: 0 6px 8px 0px $gray;
+
+.n-menu{
+	position: relative;
+	
+	& > .n-menu-list{
+		position: absolute;
+		top: 18px;
+		opacity: 1;
+
+		width: 150px;
+		background: #FFF;
+		-webkit-box-shadow: $shadow;
+		box-shadow: $shadow;
+		overflow: hidden;
+		transition: all .1s ease-out;
+		
+		&.hidden{
+			display: unset;
+			top: 0px;
+			opacity: 0;
+			height: 0px;
+		}
+		&.n-menu-left{
+			right: 18px;
+		}
+	}
+}
