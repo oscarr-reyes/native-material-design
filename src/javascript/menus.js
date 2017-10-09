@@ -4,10 +4,10 @@
 NMaterial.initMenus = function() {
 	var menus = document.querySelectorAll(".n-menu");
 
-	for(i = 0; menus.length > i; i++){
-		var menu = menus.item(i),
+	for(let i = 0; menus.length > i; i++){
+		let menu    = menus.item(i),
 			trigger = menu.querySelector(".n-menu-trigger"),
-			list = menu.querySelector(".n-menu-list");
+			list    = menu.querySelector(".n-menu-list");
 
 		// Toggle menu list when trigger is clicked
 		trigger.addEventListener("click", function(){
@@ -18,4 +18,4 @@ NMaterial.initMenus = function() {
 			this.classList.add("n-hidden");
 		});
 	}
-}
+};

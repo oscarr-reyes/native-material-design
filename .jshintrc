@@ -1,0 +1,16 @@
+{
+	"esversion": 6,
+	"curly": true,
+	"freeze": true,
+	"undef": true,
+	"boss": true,
+	"node": true,
+	"unused": true,
+	"loopfunc": true,
+	"globals": {
+		"NMaterial": true,
+		"document": true,
+		"window": true,
+		"WebKitCSSMatrix": true
+	}
+}
