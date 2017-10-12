@@ -35,15 +35,16 @@
 }
 
 .n-card {
-  -webkit-box-shadow: 0 2px 2px 0 #CCC;
-  box-shadow: 0 2px 2px 0 #CCC;
+  -webkit-box-shadow: 0 1px 4px 0 #A2A2A2;
+  box-shadow: 0 1px 4px 0 #A2A2A2;
   border-radius: 2px;
   transition: box-shadow .2s;
+  margin: 6px;
 }
 
 .n-card:hover {
-  -webkit-box-shadow: 0 2px 2px 0 #CCC;
-  box-shadow: 0 2px 2px 0 #CCC;
+  -webkit-box-shadow: 0 1px 16px 0 #A2A2A2;
+  box-shadow: 0 1px 16px 0 #A2A2A2;
 }
 
 .n-card > .n-card-media {
@@ -56,20 +57,21 @@
   width: inherit;
 }
 
-.n-card > .n-card-title {
+.n-card > .n-card-content {
   padding: 16px;
 }
 
-.n-card > .n-card-title > .n-card-title-text {
+.n-card > .n-card-content > .n-card-title-text {
   margin: 0;
 }
 
-.n-card > .n-card-title > .n-card-title-sub-text {
+.n-card > .n-card-content > .n-card-title-sub-text {
   padding: 8px 0 0;
 }
 
 .n-card > .n-card-actions {
   padding: 8px;
+  border-top: 1px solid #d5d5d5;
 }
 
 .n-card > .n-card-actions > .n-button:first-child {
@@ -186,6 +188,7 @@
   transition: background .2s;
   color: unset;
   outline: none;
+  cursor: pointer;
 }
 
 .n-button:hover {

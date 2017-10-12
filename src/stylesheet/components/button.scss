@@ -11,6 +11,7 @@
 	transition: background .2s;
 	color: unset;
 	outline: none;
+	cursor: pointer;
 	
 	&:hover{
 		background: rgba(117, 117, 117, .20);
