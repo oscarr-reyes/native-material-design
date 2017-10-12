@@ -40,6 +40,8 @@
   border-radius: 2px;
   transition: box-shadow .2s;
   margin: 6px;
+  display: flex;
+  flex-direction: column;
 }
 
 .n-card:hover {
@@ -57,19 +59,39 @@
   width: inherit;
 }
 
+.n-card > .n-card-header {
+  padding: 16px;
+  display: flex;
+}
+
+.n-card > .n-card-header > .n-card-snap {
+  margin-right: 10px;
+}
+
+.n-card > .n-card-header > .n-card-snap > img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
 .n-card > .n-card-content {
   padding: 16px;
+  word-wrap: break-word;
 }
 
-.n-card > .n-card-content > .n-card-title-text {
-  margin: 0;
+.n-card .n-card-header > .n-card-title > .n-card-title-text,
+.n-card .n-card-content > .n-card-title > .n-card-title-text {
+  margin: 0 0 4px;
 }
 
-.n-card > .n-card-content > .n-card-title-sub-text {
-  padding: 8px 0 0;
+.n-card .n-card-header > .n-card-title > .n-card-title-sub-text,
+.n-card .n-card-content > .n-card-title > .n-card-title-sub-text {
+  padding: 0;
+  margin: 4px 0 0;
 }
 
 .n-card > .n-card-actions {
+  margin-top: auto;
   padding: 8px;
   border-top: 1px solid #d5d5d5;
 }
